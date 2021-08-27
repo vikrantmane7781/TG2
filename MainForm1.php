@@ -1653,7 +1653,7 @@ table {
 						<button href="MainForm2.php" id="vestcoat"  name="vestcoat" style="margin:3px;box-shadow: 2px 2px 0px 0px black;width: 100%;font-weight: bold;" type="submit" class="btn btn-info" >✔️ VESTCOAT</button>
 					</form>	
 						</div>
-						<div class="col-xs-4 container" style="margin-left:1px">
+						<div class="col-xs-3 container" style="margin-left:1px">
 						<h4 style="text-align:center">Select file format for download:</h4>
 						<form action="downloadfirst.php" method="POST" style="text-align:center" >
 						   <input type="hidden"  name="combiner" value="<?php echo $Cloth_Article; ?>" />
@@ -1672,8 +1672,15 @@ table {
 							</label>
 							
 					</form>
+				
+						
+	
 						</div>
-
+						<form action="trial.php">
+						<label class="radio-inline" style="margin-top:35px">
+							<button class="btn btn-danger" type="submit"  id="">Print
+						</label>
+	</form>
 					</div>
 					
 			<div class="col-xs-4" style="padding: 15px 13px;margin-top: 5px;padding: 4px 8px;border:1px solid black;max-height:auto;overflowy::scroll">
